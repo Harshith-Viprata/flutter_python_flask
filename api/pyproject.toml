@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Sai-Harshith-Viprata <Harshith.Vanga@viprata.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"  # Supports Python 3.10 to <4.0
+streamlit = "*"
+python-dotenv = "*"
+langchain-openai = "*"
+langchain-groq = "*"
+chromadb = "^0.5.18"
+sentence-transformers = "^3.3.0"
+serpapi = "^0.1.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
